@@ -104,7 +104,7 @@ inception.reality.dreamLayer1.dreamLayer2.dreamLayer3.dreamLayer4.dreamLayer5.dr
 
  //5-7 James Bond Films
  
- const bondFilms = [
+ let bondFilms = [
     { "title" : "Skyfall", "year" : 2012, "actor" : "Daniel Craig", "gross" : "$1,108,561,008" },
     { "title" : "Thunderball", "year" : 1965, "actor" : "Sean Connery", "gross" : "$1,014,941,117" },
     { "title" : "Goldfinger", "year" : 1964, "actor" : "Sean Connery", "gross" : "$912,257,512" },
@@ -137,7 +137,7 @@ for (let i = 0; i < len; i++) {
     console.log(bondFilms[i].title);
 }
 */
-
+/*
 //6.
 var oddBonds = [];
 var len = bondFilms.length;
@@ -148,11 +148,25 @@ for (let i = 0; i < len; i++) {
     
 }
 console.log(oddBonds);
+*/
+
+//7.
+
+var len = bondFilms.length;
+let nums = [];
+let ints = [];
+var total = 0;
+for (let i = 0; i < len; i++) {
+    nums.push(bondFilms[i].gross.replace(/\$|\,/g, ''));
+    total += (+nums[i]);
+} 
+console.log(total);
 
 
 
-  
- 
+
+
+
 
 
 
