@@ -20,6 +20,7 @@ const students = [
     {name: mary, location: rancho cucamonga}
 ]
 */
+/*
 //2. Take it Easy
 //1
 rainbow = ["purple", "blue", "green", "yellow", "orange", "red"];
@@ -34,7 +35,7 @@ const james = {
 }
 //4.
 console.log(james.hobby);
-
+*/
 
 //3. Crazy Object
 /*
@@ -77,4 +78,24 @@ const crazyObject = {
   console.log(crazyObject.larry.characters[1]);
 */
 
-//4.
+//4. Object-ception
+const inception = {
+    reality: {
+        dreamLayer1: {
+            dreamLayer2: {
+                dreamLayer3: {
+                    dreamLayer4: {
+                        dreamLayer5: {
+                            dreamLayer6: {
+                                limbo: "Joseph Gordon Levitt"
+                           }
+                        }
+                    }
+                }
+            }
+        }
+    }
+ }
+ //console.log(inception);
+ inception.reality.dreamLayer1.dreamLayer2.dreamLayer3.dreamLayer4.dreamLayer5.dreamLayer6.limbo = "null";
+ console.log(inception);
