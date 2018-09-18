@@ -131,8 +131,16 @@ inception.reality.dreamLayer1.dreamLayer2.dreamLayer3.dreamLayer4.dreamLayer5.dr
   ];
 
   //5.
-var bondTitles = bondFilms.map(a => a.title);
-console.log(bondTitles);
+var len = bondFilms.length;
+for (let i = 0; i < len; i++) {
+    console.log(bondFilms[i].title);
+}
+
+    
+  
+
+
+
 
   
  
