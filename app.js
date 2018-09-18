@@ -20,8 +20,24 @@ const students = [
     {name: mary, location: rancho cucamonga}
 ]
 */
-
 //2. Take it Easy
+//1
+rainbow = ["purple", "blue", "green", "yellow", "orange", "red"];
+//2.
+console.log(rainbow[1]);
+//3.
+const james = {
+    faveFood: "guac",
+    hobby: "tennis",
+    homeTown: "Denver",
+    faveDataType: "string"
+}
+//4.
+console.log(james.hobby);
+
+
+//3. Crazy Object
+/*
 const crazyObject = {
     taco: [
       {
@@ -59,3 +75,6 @@ const crazyObject = {
   console.log(crazyObject.larry.characters[2].favourtieHobby);
   console.log(crazyObject.larry.nicknames[1]);
   console.log(crazyObject.larry.characters[1]);
+*/
+
+//4.
