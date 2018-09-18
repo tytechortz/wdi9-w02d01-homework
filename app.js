@@ -131,14 +131,23 @@ inception.reality.dreamLayer1.dreamLayer2.dreamLayer3.dreamLayer4.dreamLayer5.dr
   ];
 
   //5.
+  /*
 var len = bondFilms.length;
 for (let i = 0; i < len; i++) {
     console.log(bondFilms[i].title);
 }
+*/
 
+//6.
+var oddBonds = [];
+var len = bondFilms.length;
+for (let i = 0; i < len; i++) {
+    if (bondFilms[i].year % 2 != 0) {
+        oddBonds.push(bondFilms[i]);
+    }
     
-  
-
+}
+console.log(oddBonds);
 
 
 
@@ -148,4 +157,3 @@ for (let i = 0; i < len; i++) {
 
 
 
-  
